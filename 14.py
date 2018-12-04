@@ -1,5 +1,5 @@
 import random as r
-size = 3
+size = 2
 print("Macierz wygenerowana losowo o rozmiarze : ", size, "x" , size)
 wiersz = {}
 for i in range(size):
@@ -9,5 +9,5 @@ for i in range(size):
     print(str(wiersz[i]))
 
 print("Wyznacznik wynosi : ")
-a = wiersz[0][0] * wiersz[1][1] + wiersz[1][0] * wiersz[0][1]
+a = wiersz[0][0] * wiersz[1][1] - wiersz[1][0] * wiersz[0][1]
 print(a)
