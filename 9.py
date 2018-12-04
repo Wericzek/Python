@@ -7,5 +7,5 @@ def delete_word( string ):
     return string
 
 
-exampl = "dlaczego ja nigdy oraz jestem i klkl i ja nigdy"
-print(delete_word(exampl))
+exmpl = "dlaczego ja nigdy oraz jestem i co z tego i ja nigdy"
+print(delete_word(exmpl))
