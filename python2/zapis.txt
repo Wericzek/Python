@@ -1,0 +1,4 @@
+ wez z plik.txt: bla
+ wez z plik.txt: blala
+ wez z plik.txt: raz
+ wez z plik.txt: lele
