@@ -1,12 +1,11 @@
 import random as r
 size = 3
 print("Macierz wygenerowana losowo o rozmiarze : ", size, "x" , size)
-#size = 3
 wiersz = {}
 for i in range(size):
     wiersz[i] = []
     for _ in range(size):
-        wiersz[i].append(r.randint(0,10))
+        wiersz[i].append(r.randint(0, 10))
     print(str(wiersz[i]))
 
 print("Wyznacznik wynosi : ")
