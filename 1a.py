@@ -1,4 +1,4 @@
 #!/usr/bin/python
 
 
-print("1.Hello world")zmiana 
+print("1.Hello world")
