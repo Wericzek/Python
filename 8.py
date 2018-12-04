@@ -1,7 +1,7 @@
 import random
 
 
-def rand_gen(rang, length):
+def randg(rang, length):
     return random.sample(range(rang), length)
 
 print("Funkcja sortuje losowe liczby malejaca")
@@ -15,6 +15,6 @@ def sort(x):
     return (x)
 
 
-x = rand_gen(1000, 50)
+x = randg(1000, 50)
 y= sort(x)
 print(y)
