@@ -1,12 +1,12 @@
-def replace_word(string):
+def replace_word(word):
 
 
-    string = string.replace("nigdy", "prawie nigdy ")
-    string = string.replace("i", "ii")
-    string = string.replace("oraz", "i")
-    string = string.replace("iiiiiiiii", "oraz")
-    string = string.replace("dlaczego", "czemu")
-    return string
+    word = word.replace("nigdy", "prawie nigdy ")
+    word = word.replace("i", "ii")
+    word = word.replace("oraz", "i")
+    word = word.replace("iiiiiiiii", "oraz")
+    word = word.replace("dlaczego", "czemu")
+    return word
 
 
 exampl = "dlaczego ja nigdy oraz jestem i oraz i ja nigdy czemu dlaczego "

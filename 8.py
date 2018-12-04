@@ -1,6 +1,5 @@
 import random
 
-
 def randg(rang, length):
     return random.sample(range(rang), length)
 
@@ -16,5 +15,5 @@ def sort(x):
 
 
 x = randg(1000, 50)
-y= sort(x)
+y = sort(x)
 print(y)
